@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Mallepalli Suresh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <div class="logo">MS</div>
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+</nav>
+
+<section class="page-section">
+    <div class="container">
+        <h1 class="page-title reveal">Project Portfolio</h1>
+        <p class="section-subtitle">Demonstrating technical expertise through real-world applications and innovative solutions</p>
+        
+        <div class="filter-buttons reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ml">Machine Learning</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="cloud">Cloud</button>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card reveal" data-category="ml">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>AI-Based Dynamic Pricing System</h3>
+                        <span class="project-badge">Production Ready</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Random Forest</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                        <span class="tech-tag">Pandas</span>
+                    </div>
+                    <p>Engineered machine learning model using Random Forest Regressor achieving R² ≈ 0.9937 on 12,000+ samples. Implemented comprehensive data preprocessing, feature engineering, and model optimization for e-commerce price prediction.</p>
+                    <div class="project-metrics">
+                        <span><i class="fas fa-check-circle"></i> 99.37% Accuracy</span>
+                        <span><i class="fas fa-database"></i> 12K+ Samples</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Todo App with Local Storage</h3>
+                        <span class="project-badge">Full Stack</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                        <span class="tech-tag">LocalStorage</span>
+                    </div>
+                    <p>Feature-rich todo application with add, edit, delete functionality and persistent data storage using browser localStorage.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Weather App</h3>
+                        <span class="project-badge">API Integration</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">OpenWeather API</span>
+                        <span class="tech-tag">REST API</span>
+                    </div>
+                    <p>Real-time weather application fetching data from OpenWeather API with location search and detailed forecasts.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Expense Tracker</h3>
+                        <span class="project-badge">Data Visualization</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Chart.js</span>
+                        <span class="tech-tag">LocalStorage</span>
+                    </div>
+                    <p>Financial tracking application with charts, categories, and persistent data storage for expense management.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Quiz App</h3>
+                        <span class="project-badge">Interactive</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                    <p>Interactive quiz application with timer, score tracking, and leaderboard functionality.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Notes App</h3>
+                        <span class="project-badge">Productivity</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Rich Text Editor</span>
+                    </div>
+                    <p>Note-taking application with rich text editing capabilities and local storage persistence.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Image Gallery with Filters</h3>
+                        <span class="project-badge">UI/UX</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">CSS Grid</span>
+                    </div>
+                    <p>Responsive image gallery with search, category filtering, and modal preview functionality.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Scientific Calculator</h3>
+                        <span class="project-badge">Utility</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Math.js</span>
+                    </div>
+                    <p>Advanced calculator with scientific functions and full keyboard support.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Kanban Board (Trello Clone)</h3>
+                        <span class="project-badge">Project Management</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Drag & Drop API</span>
+                    </div>
+                    <p>Task management board with drag-and-drop functionality for organizing projects.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>GitHub Profile Finder</h3>
+                        <span class="project-badge">API Integration</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">GitHub API</span>
+                    </div>
+                    <p>Search and display GitHub user profiles with repositories and statistics using GitHub API.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Movie Search App</h3>
+                        <span class="project-badge">Entertainment</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">OMDB API</span>
+                    </div>
+                    <p>Movie database search application with pagination and detailed movie information.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Chat UI Simulator</h3>
+                        <span class="project-badge">Real-time UI</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">CSS Animations</span>
+                    </div>
+                    <p>Frontend chat interface with real-time message simulation and modern UI design.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Form Builder</h3>
+                        <span class="project-badge">Dynamic</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Drag & Drop</span>
+                    </div>
+                    <p>Dynamic form builder allowing users to drag and drop form fields to create custom forms.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Markdown Editor + Preview</h3>
+                        <span class="project-badge">Developer Tool</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Marked.js</span>
+                    </div>
+                    <p>Live markdown editor with real-time preview and syntax highlighting.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Blog Website</h3>
+                        <span class="project-badge">Content Management</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">JSON</span>
+                    </div>
+                    <p>Blog platform with local JSON-based posts, categories, and search functionality.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Admin Dashboard</h3>
+                        <span class="project-badge">Enterprise</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Chart.js</span>
+                    </div>
+                    <p>Comprehensive admin dashboard with charts, data tables, and analytics cards.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Authentication UI</h3>
+                        <span class="project-badge">Security</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Form Validation</span>
+                    </div>
+                    <p>Complete authentication interface with login, register, and validation features.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>E-commerce Frontend</h3>
+                        <span class="project-badge">E-commerce</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">LocalStorage</span>
+                    </div>
+                    <p>Full-featured e-commerce interface with shopping cart, filters, and localStorage persistence.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Crypto Price Tracker</h3>
+                        <span class="project-badge">Real-time</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API Polling</span>
+                    </div>
+                    <p>Real-time cryptocurrency price tracker with API polling and live updates.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Stock Market Dashboard</h3>
+                        <span class="project-badge">Finance</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Chart.js</span>
+                    </div>
+                    <p>Stock market visualization dashboard with interactive charts and real-time data.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Drag & Drop File Uploader</h3>
+                        <span class="project-badge">Utility</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">File API</span>
+                    </div>
+                    <p>File upload interface with drag-and-drop functionality and progress tracking.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Pomodoro Productivity App</h3>
+                        <span class="project-badge">Productivity</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Timer API</span>
+                    </div>
+                    <p>Pomodoro technique timer with break intervals and productivity tracking.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Habit Tracker</h3>
+                        <span class="project-badge">Lifestyle</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Calendar Heatmap</span>
+                    </div>
+                    <p>Habit tracking application with calendar heatmap visualization and streak tracking.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Job Search App</h3>
+                        <span class="project-badge">Career</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API Integration</span>
+                    </div>
+                    <p>Job search platform with API integration, filters, and application tracking.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal" data-category="web">
+                <div class="project-info">
+                    <div class="project-header">
+                        <h3>Project Manager Dashboard</h3>
+                        <span class="project-badge">Enterprise</span>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Chart.js</span>
+                        <span class="tech-tag">LocalStorage</span>
+                    </div>
+                    <p>Comprehensive project management dashboard with tasks, charts, analytics, and data persistence.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Suresh7157" target="_blank" class="btn-secondary"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/mallepalli-suresh-70991b2ba" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Suresh7157" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <p>© 2026 Mallepalli Suresh. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
